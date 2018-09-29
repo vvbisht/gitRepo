@@ -16,11 +16,15 @@ public class SelectJobRole extends UIBasePageObject {
 	@FindBy(xpath="//*[@class='slds-form-element']//span//input[@type='radio']/following-sibling::label//span[contains(text(),'Tos Tier1')]")
 	WebElement jobRole;
 	
+	@FindBy(css="div.slds-modal.slds-fade-in-open.cThorBase.cThor button[type='button']")
+	WebElement selectButton;
+	
 	public void selectRole()
 	{
 		try
 		{
 		this.clickElement(jobRole);
+		this.clickElement(selectButton);
 		}
 		catch(ElementNotVisibleException e)
 		{

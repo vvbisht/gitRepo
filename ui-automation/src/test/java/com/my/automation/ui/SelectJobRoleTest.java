@@ -17,7 +17,7 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeSuite;
 
-public class SelectJobRole extends UIBaseTest {
+public class SelectJobRoleTest extends UIBaseTest {
 
 	@BeforeSuite
 	public void beforeSuite(ITestContext context) {
