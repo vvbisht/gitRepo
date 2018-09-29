@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UITestSuite">
+
+	<listeners>
+		<listener class-name="com.my.automation.listener.ExtentListener"/>
+	</listeners>
+
+	<parameter name="browser" value="Chrome" />
+	<test name="UI_Test">
+
+		<classes>
+			
+			<class name="com.my.automation.ui.SFLoginTest"></class>
+			<!-- <class name="com.my.automation.ui.SelectJobRole"></class> -->
+
+		</classes>
+
+	</test>
+</suite>

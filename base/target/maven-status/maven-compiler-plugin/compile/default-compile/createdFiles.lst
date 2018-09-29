@@ -1,0 +1,9 @@
+com\my\automation\basepageobject\BasePageObject.class
+com\my\automation\base\config\BaseDataConstants.class
+com\my\automation\baseutil\Driver.class
+com\my\automation\baseutil\DataProvider.class
+com\my\automation\base\api\APIBase.class
+com\my\automation\base\api\RestParser.class
+com\my\automation\jsonhandlers\JsonProcessors.class
+com\my\automation\base\test\BaseTest.class
+com\my\automation\base\test\BaseAPITest.class

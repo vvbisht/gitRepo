@@ -1,0 +1,84 @@
+{
+	"QAPC": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {},
+		"payload_param": {
+			"source": "GPS",
+			"userEmail": "rdronamraju@ea.com",
+			"advisorEmail": "rdronamraju@ea.com",
+			"advisorId": "",
+			"noteText": "Notes from Automation",
+			"noteType": "ACCTNOTE",
+			"noteDate": "2018-05-02T10:20:30Z"
+		}
+	},
+
+	"RUNFC": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {},
+		"payload_param": {
+			"source": "GPS",
+			"userEmail": "rdronamraju@ea.com",
+			"advisorEmail": "rdronamraju@ea.com",
+			"advisorId": "",
+			"noteText": "Notes from Automation",
+			"noteType": "ACCTNOTE",
+			"noteDate": "2018-05-02T10:20:30Z"
+		}
+	},
+
+	"UATPC": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {},
+		"payload_param": {
+			"source": "GPS",
+			"userEmail": "rdronamraju@ea.com",
+			"advisorEmail": "rdronamraju@ea.com",
+			"noteText": "Notes from Automation",
+			"noteType": "ACCTNOTE",
+			"noteDate": "2018-05-03T10:20:30Z"
+		}
+	},
+
+	"PROD": {
+		"headers": {
+			"S-RequestorId": "test",
+			"Authorization" : "",
+			"Content-Type" : "application/json"
+		},
+		"uri_param": {
+			"userId": "1000364103158"
+		},
+		"input_param": {},
+		"payload_param": {
+			"source": "GPS",
+			"userEmail": "rdronamraju@ea.com",
+			"advisorEmail": "rdronamraju@ea.com",
+			"advisorId": "",
+			"noteText": "Notes from Automation",
+			"noteType": "ACCTNOTE",
+			"noteDate": "2018-05-02T10:20:30Z"
+		}
+	}
+}

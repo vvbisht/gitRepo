@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4305" started-at="2018-09-29T08:34:38Z" finished-at="2018-09-29T08:34:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4305" started-at="2018-09-29T08:34:38Z" finished-at="2018-09-29T08:34:42Z">
+      <class name="com.my.automation.Post_Player_NotesTest">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.my.automation.Post_Player_NotesTest@28d25987]" name="beforeMethod" is-config="true" duration-ms="2239" started-at="2018-09-29T08:34:38Z" finished-at="2018-09-29T08:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7fa98a66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyPlayerNotes()[pri:0, instance:com.my.automation.Post_Player_NotesTest@28d25987]" name="verifyPlayerNotes" duration-ms="2023" started-at="2018-09-29T08:34:40Z" finished-at="2018-09-29T08:34:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlayerNotes -->
+      </class> <!-- com.my.automation.Post_Player_NotesTest -->
+      <class name="com.my.automation.APIBaseTest">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.my.automation.APIBaseTest@59fa1d9b]" name="beforeSuite" is-config="true" duration-ms="54" started-at="2018-09-29T08:34:38Z" finished-at="2018-09-29T08:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7fa98a66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.my.automation.APIBaseTest@59fa1d9b]" name="beforeTest" is-config="true" duration-ms="4" started-at="2018-09-29T08:34:38Z" finished-at="2018-09-29T08:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QAPC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[regression]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@7fa98a66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- com.my.automation.APIBaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

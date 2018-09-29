@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SovereignTestSuite" duration-ms="17053" started-at="2018-09-22T15:49:14Z" finished-at="2018-09-22T15:49:31Z">
+    <groups>
+    </groups>
+    <test name="UI_Test" duration-ms="17053" started-at="2018-09-22T15:49:14Z" finished-at="2018-09-22T15:49:31Z">
+      <class name="com.my.automation.ui.SFLoginTest">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.my.automation.ui.SFLoginTest@28d25987]" name="beforeSuite" is-config="true" duration-ms="78" started-at="2018-09-22T21:19:13Z" finished-at="2018-09-22T21:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57576994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.my.automation.ui.SFLoginTest@28d25987]" name="beforeClass" is-config="true" duration-ms="5549" started-at="2018-09-22T21:19:14Z" finished-at="2018-09-22T21:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.my.automation.ui.SFLoginTest@28d25987]" name="beforeClass" is-config="true" duration-ms="112" started-at="2018-09-22T21:19:19Z" finished-at="2018-09-22T21:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.my.automation.ui.SFLoginTest@28d25987]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-09-22T21:19:19Z" finished-at="2018-09-22T21:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57576994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginToSF(org.testng.ITestContext)[pri:0, instance:com.my.automation.ui.SFLoginTest@28d25987]" name="loginToSF" duration-ms="10470" started-at="2018-09-22T21:19:19Z" finished-at="2018-09-22T21:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57576994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToSF -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.my.automation.ui.SFLoginTest@28d25987]" name="afterClass" is-config="true" duration-ms="869" started-at="2018-09-22T21:19:30Z" finished-at="2018-09-22T21:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.my.automation.ui.SFLoginTest -->
+    </test> <!-- UI_Test -->
+  </suite> <!-- SovereignTestSuite -->
+</testng-results>

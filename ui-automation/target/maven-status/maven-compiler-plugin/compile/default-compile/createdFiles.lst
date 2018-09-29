@@ -1,0 +1,6 @@
+com\my\automation\pageobjects\SelectJobRole.class
+com\my\automation\pageobjects\UIBasePageObject.class
+com\my\automation\pageobjects\SFLoginPage.class
+com\my\automation\listener\ExtentManager.class
+com\my\automation\config\UIDataConstants.class
+com\my\automation\listener\ExtentListener.class

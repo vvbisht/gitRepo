@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SovereignTestSuite]">
+  <test thread-count="5" name="API_tests(failed)">
+    <parameter name="testEnvironment" value="QAPC"/>
+    <parameter name="testType" value="regression"/>
+    <classes>
+      <class name="com.my.automation.Post_Player_Notes">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="verifyPlayerNotes"/>
+        </methods>
+      </class> <!-- com.my.automation.Post_Player_Notes -->
+    </classes>
+  </test> <!-- API_tests(failed) -->
+</suite> <!-- Failed suite [SovereignTestSuite] -->

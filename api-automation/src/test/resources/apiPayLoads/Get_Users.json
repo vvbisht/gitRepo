@@ -1,0 +1,18 @@
+{
+	"UAT": {
+		"headers": {
+			"S-RequestorId": "test"
+		},
+		"uri_param": {},
+		"input_param": {
+			"crmProduct": "ufc",
+			"crmCustomLabel": "play",
+			"locale": "en_US",
+			"platform": "xbox-one",
+			"lifeCycle": "launch",
+			"category": "manage-my-account",
+			"subCategory": "-",
+			"customerValue": "-"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"Put Users": {
+		"endpoint_name": "API to post player notes",
+		"url": "/api/users",
+		"call_type": "POST",
+		"payload_name": "POST_PLAYER_NOTES.json"
+	},
+	
+	"Get_Users": {
+		"endpoint_name": "API to post player notes",
+		"url": "/api/users/2",
+		"call_type": "GET",
+		"payload_name": "Get_Users.json"
+	},
+	
+	"POST_PLAYER_NOTES_API": {
+		"endpoint_name": "API to post player notes",
+		"url": "/account/users/1000364103158/playernote",
+		"service_type": "REST",
+		"call_type": "POST",
+		"payload_name": "POST_PLAYER_NOTES.json"
+	}
+}

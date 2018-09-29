@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SovereignTestSuite]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.my.automation.listener.ExtentListener"/>
+  </listeners>
+  <test name="UI_Test(failed)">
+    <classes>
+      <class name="com.my.automation.ui.SFLoginTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="loginToSF" invocation-numbers="0"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.my.automation.ui.SFLoginTest -->
+      <class name="com.my.automation.ui.SelectJobRole">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.my.automation.ui.SelectJobRole -->
+    </classes>
+  </test> <!-- UI_Test(failed) -->
+</suite> <!-- Failed suite [SovereignTestSuite] -->

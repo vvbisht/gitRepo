@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestSuite">
+	<test name="API_tests"> 
+	 	<parameter name="testEnvironment" value="QAPC"/>
+	 	<parameter name="testType" value="regression"></parameter>
+	    <classes>
+		    <class name="com.my.automation.Post_Player_Notes"></class>
+			
+	    </classes>    
+	    
+  </test>
+</suite>
