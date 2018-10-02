@@ -23,10 +23,10 @@ import org.testng.annotations.BeforeSuite;
 
 public class SFLoginTest extends UIBaseTest {
 
-	@BeforeSuite
+	/*@BeforeSuite
 	public void beforeSuite(ITestContext context) {
 		super.beforeSuite(context);
-	}
+	}*/
 
 	@BeforeClass
 	public void beforeClass(ITestContext context) {
@@ -40,6 +40,8 @@ public class SFLoginTest extends UIBaseTest {
 		data = testData.getTestData(context.getAttribute("testdata").toString());
 		loginPage.logintoSF(data.get("username"), data.get("password"));
 		loginPage.isPageLoaded();
+		Thread.sleep(10000);
+		jobRole.selectRole();
 	}
 
 }
