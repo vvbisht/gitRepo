@@ -12,7 +12,7 @@
 		<classes>
 			
 			<class name="com.my.automation.ui.SFLoginTest"></class>
-			<!-- <class name="com.my.automation.ui.SelectJobRole"></class> -->
+			<class name="com.my.automation.ui.SelectJobRoleTest"></class>
 
 		</classes>
 
